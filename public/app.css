@@ -1,27 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700'); 
- 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: #ecf0f1;
 }
 
 /*****************************HEADER STYLES*****************************/
+
 header {
 	text-align: center;
 }
+
 header h1 {
 	font-size: 64px;
 	font-weight: 300;
 	margin: 80px 0 25px;
 	color: #2c3e50;
 }
+
 header h1 span {
 	font-weight: 700;
 }
+
 header h2 {
 	color: #bdc3c7;
-	font-weight:300;
+	font-weight: 300;
 }
+
 /*****************************FORM STYLES*****************************/
 
 .form {
@@ -42,10 +47,12 @@ header h2 {
 }
 
 /*****************************LIST STYLES*****************************/
+
 .list {
 	width: 800px;
 	margin: 0 auto;
 }
+
 .task {
 	width: 100%;
 	height: 60px;
@@ -55,12 +62,13 @@ header h2 {
 	color: #34495e;
 	transition: all .3s ease;
 }
+
 .task:hover {
 	background: rgba(0, 0, 0, .02);
 	cursor: pointer;
 }
 
-.task:hover span{
+.task:hover span {
 	opacity: 1;
 }
 
@@ -70,12 +78,12 @@ header h2 {
 }
 
 li span {
-  float: right;
-  color: #c0392b;
-  transition: all 0.3s;
-  opacity: 0;
+	float: right;
+	color: #c0392b;
+	transition: all 0.3s;
+	opacity: 0;
 }
 
 li span:hover {
-  color: #e74c3c
+	color: #e74c3c
 }
